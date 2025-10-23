@@ -14,7 +14,7 @@ In non-parallel instances, `a` must be assigned a seed and the remaining state m
 
 #### GhostJumble32
 
-GhostJumble32 provides enhanced parallelism, period, speed and statistical test results as an ideal alternative to PCG32 RXS M XS.
+GhostJumble32 provides enhanced parallelism, period, speed and statistical test results as an ideal alternative to PCG32 RXS M XS and Xorshift32.
 
 It has a period of at least 2³².
 
@@ -42,7 +42,7 @@ In non-parallel instances, `a` must be assigned a seed and the remaining state m
 
 #### GhostJumble16
 
-GhostJumble16 provides enhanced parallelism, period, speed and statistical test results as an ideal alternative to PCG16 RXS M XS.
+GhostJumble16 provides enhanced parallelism, period, speed and statistical test results as an ideal alternative to PCG16 RXS M XS and Xorshift16.
 
 It has a period of at least 2²².
 
@@ -70,7 +70,7 @@ In non-parallel instances, `a` must be assigned a seed and the remaining state m
 
 #### GhostJumble8
 
-GhostJumble8 provides enhanced parallelism, period, speed and statistical test results as an ideal alternative to PCG8 RXS M XS.
+GhostJumble8 provides enhanced parallelism, period, speed and statistical test results as an ideal alternative to PCG8 RXS M XS and Xorshift8.
 
 It has a period of at least between 2¹⁸ and 2¹⁹, precisely 458752.
 
